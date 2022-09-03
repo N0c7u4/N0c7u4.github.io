@@ -91,7 +91,7 @@ h3{
     width: 100%;
     height: 100%;
     background-color: var(--bar-color);
-    transform: translateX(-80%);
+    transform: translateX(-130%);
 }
 
 @keyframes fill-bar {
