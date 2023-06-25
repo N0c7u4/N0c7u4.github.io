@@ -1,59 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Nombre de tu proyecto - Documentación</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-    }
+    <title>Bienvenido a la Wiki de AnaBit</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("https://via.placeholder.com/1920x1080"); /* URL de la imagen de fondo */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
 
-    h1 {
-      color: #333;
-    }
+        #content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: white;
+            text-align: center;
+        }
 
-    h2 {
-      color: #666;
-    }
+        h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
 
-    p {
-      color: #999;
-    }
-  </style>
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #f44336;
+            border: none;
+            color: white;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+        }
+
+        .icons {
+            margin-top: 40px;
+        }
+
+        .icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: white;
+            font-size: 24px;
+            transition: transform 0.3s;
+        }
+
+        .icons a:hover {
+            transform: translate(0, -5px);
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Nombre de tu proyecto - Documentación</h1>
-  </header>
-
-  <nav>
-    <ul>
-      <li><a href="#seccion1">Sección 1</a></li>
-      <li><a href="#seccion2">Sección 2</a></li>
-      <li><a href="#seccion3">Sección 3</a></li>
-    </ul>
-  </nav>
-
-  <main>
-    <section id="seccion1">
-      <h2>Sección 1</h2>
-      <p>Contenido de la sección 1.</p>
-    </section>
-
-    <section id="seccion2">
-      <h2>Sección 2</h2>
-      <p>Contenido de la sección 2.</p>
-    </section>
-
-    <section id="seccion3">
-      <h2>Sección 3</h2>
-      <p>Contenido de la sección 3.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2023 Nombre de tu proyecto. Todos los derechos reservados.</p>
-  </footer>
+    <div id="content">
+        <h1>Bienvenido a la Wiki de AnaBit</h1>
+        <button>Ingresar a Wiki</button>
+        <div class="icons">
+            <a href="https://discord.gg/tu_grupo_de_discord" target="_blank"><img src="discord.png" alt="Discord"></a>
+            <a href="mailto:saflorezprieto@gmail.com"><img src="email.png" alt="Email"></a>
+        </div>
+    </div>
 </body>
 </html>
 
